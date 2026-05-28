@@ -1,8 +1,8 @@
-const name = "wantech-test-mod";
-const displayName = "WantechFan's Testing Mod";
+const name = "overpowered-scathe";
+const displayName = "Overpowered Scathe";
 const author = "WantechFan";
-const description = "A mod used for WantechFan's testings.";
+const description = "Buffs Scathe.";
 const minGameVersion = "155.2";
-const version = "1.5";
+const version = "1.0";
 const hidden = true;
-const subtitle = "Why would you download this?";
+const subtitle = "Buffs Scathe";
