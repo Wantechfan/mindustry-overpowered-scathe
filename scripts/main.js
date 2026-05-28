@@ -1,0 +1,37 @@
+let unit = Blocks.scathe;
+
+Events.on(ClientLoadEvent, e => {
+    unit.fogRadiusMultiplier = 1;
+    unit.shootSound = Sounds.wind3;
+    unit.targetAir = true;
+    unit.range = 2700;
+    unit = Blocks.scathe.ammoTypes.get(Items.carbide).spawnUnit;
+    unit.maxRange = 12;
+    unit.lifetime = 120 * 11;
+    unit.targetAir = true;
+    unit.weapons.get(0).bullet.collidesAir = true;
+    unit.weapons.get(0).bullet.buildingDamageMultiplier = 1;
+    unit.weapons.get(0).bullet.fragBullet.buildingDamageMultiplier = 1;
+    unit.weapons.get(0).bullet.fragBullet.lifetime = 46;
+
+    unit = Blocks.scathe.ammoTypes.get(Items.phaseFabric).spawnUnit;
+    unit.maxRange = 12;
+    unit.lifetime = 120 * 19;
+    unit.targetAir = true;
+    unit.weapons.get(0).bullet.collidesAir = true;
+    unit.weapons.get(0).bullet.buildingDamageMultiplier = 1;
+    unit.weapons.get(0).bullet.fragBullet.buildingDamageMultiplier = 1;
+    unit.weapons.get(0).bullet.fragBullet.lifetime = 46;
+
+    unit = Blocks.scathe.ammoTypes.get(Items.surgeAlloy).spawnUnit;
+    unit.maxRange = 12;
+    unit.lifetime = 120 * 2.8;
+    unit.targetAir = true;
+    unit.weapons.get(0).bullet.collidesAir = true;
+    unit.weapons.get(0).bullet.buildingDamageMultiplier = 1;
+    unit.weapons.get(0).bullet.fragBullet.spawnUnit.maxRange = 12;
+    unit.weapons.get(0).bullet.fragBullet.spawnUnit.lifetime = 120 * 7.4;
+    unit.weapons.get(0).bullet.fragBullet.spawnUnit.targetAir = true;
+    unit.weapons.get(0).bullet.fragBullet.spawnUnit.weapons.get(0).bullet.collidesAir = true;
+    unit.weapons.get(0).bullet.fragBullet.spawnUnit.weapons.get(0).bullet.buildingDamageMultiplier = 1;
+});
