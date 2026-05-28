@@ -1,2 +1,2 @@
-# mindustry-overpowered-scathe
+# Overpowered Scathe
 Extremely buffs Scathe
