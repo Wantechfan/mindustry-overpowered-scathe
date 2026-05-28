@@ -1,0 +1,8 @@
+name: "overpowered-scathe"
+displayName: "Overpowered Scathe"
+author: "WantechFan"
+description: "Buffs Scathe."
+minGameVersion: "155.2"
+version: "1.0"
+hidden: true
+subtitle: "Buffs Scathe"
