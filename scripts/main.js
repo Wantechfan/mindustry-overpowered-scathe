@@ -2,7 +2,6 @@ let unit = Blocks.scathe;
 
 Events.on(ClientLoadEvent, e => {
     unit.fogRadiusMultiplier = 1;
-    unit.shootSound = Sounds.wind3;
     unit.targetAir = true;
     unit.range = 2700;
     unit = Blocks.scathe.ammoTypes.get(Items.carbide).spawnUnit;
